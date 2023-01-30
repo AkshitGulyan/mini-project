@@ -12,10 +12,10 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['94 Flow', 'The Real Slim Shady','Mafia Style','Ek Din Pyaar','Peaches','Hit em Up','Racks n Rounds','Vol 1'];
+const songs = ['94 Flow', 'The Real Slim Shady','Mafia Style','Ek Din Pyaar','Peaches','Hit em Up','Racks n Rounds'];
 
 // Keep track of song
-let songIndex = 7;
+let songIndex = 6;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
